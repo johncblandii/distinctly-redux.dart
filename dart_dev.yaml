@@ -1,0 +1,19 @@
+analyze:
+  libraries:
+    - lib/distinctly_redux.dart
+
+apply-license:
+  license: LICENSE
+  include:
+    - lib/*.dart
+    - lib/**/*.dart
+
+coverage:
+  report_on:
+    - lib/
+
+format:
+  include:
+    - lib/
+    - test/
+  line_length: 120
