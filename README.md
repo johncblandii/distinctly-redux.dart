@@ -1,3 +1,5 @@
+![travis](https://travis-ci.org/johncblandii/distinctly-redux.dart.svg?branch=master)
+
 # Distinctly Redux
 
 [Redux for Dart](https://github.com/johnpryan/redux.dart), like the JS counterpart, dispatches change notifications on every change in the store. Distinctly Redux provides a drop-in replacement of Redux.dart's Store with `onChange` notifications only when the state is distinct.
