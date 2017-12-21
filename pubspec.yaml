@@ -13,13 +13,13 @@ dependencies:
   redux: ^2.0.0
 
 dev_dependencies:
-  build: any
-  build_runner: any
+  build: ^0.10.0
+  build_runner: ^0.5.0
   built_value: ^4.0.0
-  built_value_generator: any
+  built_value_generator: ^4.4.0
   coverage: ^0.8.0
   dart_dev: 2.0.0-alpha
   dart_style: ^0.2.0
   dartdoc: ^0.9.0
   test: ^0.12.0
-  source_gen: any
+  source_gen: ^0.7.3
