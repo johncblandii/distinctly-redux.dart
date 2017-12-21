@@ -5,10 +5,10 @@ dart:
   - dev
 with_content_shell: false
 script:
-  - pub run dart_dev format --check
-  - pub run dart_dev analyze
   - pub get
   - pub build
+  - pub run dart_dev format --check
+  - pub run dart_dev analyze
   - cd -
   - pub run dart_dev test
   - pub run dart_dev coverage --no-html

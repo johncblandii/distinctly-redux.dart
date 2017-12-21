@@ -1,7 +1,6 @@
 name: distinctly_redux
 version: 1.0.0
 description: A Redux store with only distinct onChange notifications.
-publish_to: https://pub.workiva.org
 homepage: https://github.com/johncblandii/distinctly_redux.dart
 authors:
   - John C. Bland II <johncblandii@gmail.com>
