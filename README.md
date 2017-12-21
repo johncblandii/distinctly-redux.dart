@@ -1,4 +1,5 @@
 ![travis](https://travis-ci.org/johncblandii/distinctly-redux.dart.svg?branch=master)
+[![codecov](https://codecov.io/gh/johncblandii/distinctly-redux.dart/branch/master/graph/badge.svg)](https://codecov.io/gh/johncblandii/distinctly-redux.dart)
 
 # Distinctly Redux
 

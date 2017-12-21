@@ -26,12 +26,10 @@ class _$BuiltValueState extends BuiltValueState {
   }
 
   @override
-  BuiltValueState rebuild(void updates(BuiltValueStateBuilder b)) =>
-      (toBuilder()..update(updates)).build();
+  BuiltValueState rebuild(void updates(BuiltValueStateBuilder b)) => (toBuilder()..update(updates)).build();
 
   @override
-  BuiltValueStateBuilder toBuilder() =>
-      new BuiltValueStateBuilder()..replace(this);
+  BuiltValueStateBuilder toBuilder() => new BuiltValueStateBuilder()..replace(this);
 
   @override
   bool operator ==(dynamic other) {
@@ -47,13 +45,11 @@ class _$BuiltValueState extends BuiltValueState {
 
   @override
   String toString() {
-    return (newBuiltValueToStringHelper('BuiltValueState')..add('value', value))
-        .toString();
+    return (newBuiltValueToStringHelper('BuiltValueState')..add('value', value)).toString();
   }
 }
 
-class BuiltValueStateBuilder
-    implements Builder<BuiltValueState, BuiltValueStateBuilder> {
+class BuiltValueStateBuilder implements Builder<BuiltValueState, BuiltValueStateBuilder> {
   _$BuiltValueState _$v;
 
   int _value;

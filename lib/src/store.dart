@@ -66,8 +66,7 @@ import 'package:redux/redux.dart' show Middleware, Reducer, Store;
 ///     store.dispatch('anything'); // updateCount == 2
 ///     store.dispatch(decrement); // updateCount == 3
 class DistinctStore<T> extends Store<T> {
-  DistinctStore(Reducer<T> reducer,
-      {T initialState, List<Middleware<T>> middleware: const [], bool syncStream: false})
+  DistinctStore(Reducer<T> reducer, {T initialState, List<Middleware<T>> middleware: const [], bool syncStream: false})
       : super(reducer, initialState: initialState, middleware: middleware);
 
   @override
