@@ -12,6 +12,7 @@ addons:
     - ttf-dejavu
     - ttf-indic-fonts
     - fonts-tlwg-garuda
+    - lcov
 
 before_install:
   # Workaround for https://github.com/travis-ci/travis-ci/issues/8607
